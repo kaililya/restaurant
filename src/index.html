@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page">
+        <!-- <header class="header">
+            <a class="header__link" href="#">
+                <img class="logo" src="<%=require('./images/logo.png')%>" alt="Логотип заведения">
+            </a>
+            <nav class="menu">
+                <input class="menu__toggle" type="checkbox">
+                <div class="menu__humburger"></div>
+
+                <ul class="menu__container">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Главная</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Меню</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Афиша</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Сотрудничество</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Галерея</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Новости</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="button" type="button">Бронирование</button>
+        </header>  -->
+
+        <section class="welcome">
+            <div class="place">
+                <div class="place__container">
+                    <div class="place__founding-container">
+                        <p class="place__year">Since 1996</p>
+                    </div>
+                </div>
+                <h1 class="place__title">True. Fontanka. Underground. </h1>
+            </div>
+
+            <div class="posters">
+                <div class="posters__button-container">
+                    <button class="posters__button posters__button_active" type="button">Ближайшие</button>
+                    <button class="posters__button" type="button">Скоро</button>
+                </div>
+                <ul class="posters__container">
+                <!-- <li class="poster"><img class="poster__image" src="<%=require('./images/firstPoster.jpeg')%>" alt=""></li>
+                    <li class="poster"><img class="poster__image" src="<%=require('./images/secondPoster.jpeg')%>" alt=""></li>
+                    <li class="poster"><img class="poster__image" src="<%=require('./images/thirdPoster.jpeg')%>" alt=""></li>
+                    <li class="poster"><img class="poster__image" src="<%=require('./images/fourthPoster.jpeg')%>" alt=""></li> -->
+                </ul>                                                                       
+            </div>
+        </section>
+
+        <!-- <section class="dishes">
+            <h2 class="dishes__title">Кухня</h2>
+            
+            <ul class="dishes__container">
+            
+                <li class="dish">
+                    <img class="dish__img" src="<%=require('./images/dishes/dishesFirst.jpeg')%>" alt="Изображение блюда">
+
+                    <div class="dish__main-container">
+                        <div class="dish__main-info-section">
+                            <h3 class="dish__title">Фирменная залупа 2</h3>
+                            <div class="dish__price-section">
+                                <p class="dish__price">550 &#8381;</p>
+                            </div>
+                        </div>
+                        <p class="dish__subtitle">200 гр</p>
+                        <p class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                </li>
+                <li class="dish">
+                    <img class="dish__img" src="<%=require('./images/dishes/dishesSecond.jpeg')%>" alt="Изображение блюда">
+
+                    <div class="dish__main-container">
+                        <div class="dish__main-info-section">
+                            <h3 class="dish__title">Фирменная залупа</h3>
+                            <div class="dish__price-section">
+                                <p class="dish__price">550 &#8381;</p>
+                            </div>
+                        </div>
+                        <p class="dish__subtitle">200 гр</p>
+                        <p class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                </li>
+                <li class="dish">
+                    <img class="dish__img" src="<%=require('./images/dishes/dishesFirst.jpeg')%>" alt="Изображение блюда">
+
+                    <div class="dish__main-container">
+                        <div class="dish__main-info-section">
+                            <h3 class="dish__title">Фирменная залупа</h3>
+                            <div class="dish__price-section">
+                                <p class="dish__price">550 &#8381;</p>
+                            </div>
+                        </div>
+                        <p class="dish__subtitle">200 гр</p>
+                        <p class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                </li>
+                <li class="dish">
+                    <img class="dish__img" src="<%=require('./images/dishes/dishesSecond.jpeg')%>" alt="Изображение блюда">
+
+                    <div class="dish__main-container">
+                        <div class="dish__main-info-section">
+                            <h3 class="dish__title">Фирменная залупа</h3>
+                            <div class="dish__price-section">
+                                <p class="dish__price">550 &#8381;</p>
+                            </div>
+                        </div>
+                        <p class="dish__subtitle">200 гр</p>
+                        <p class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                </li>
+                <li class="dish">
+                    <img class="dish__img" src="<%=require('./images/dishes/dishesFirst.jpeg')%>" alt="Изображение блюда">
+
+                    <div class="dish__main-container">
+                        <div class="dish__main-info-section">
+                            <h3 class="dish__title">Фирменная залупа</h3>
+                            <div class="dish__price-section">
+                                <p class="dish__price">550 &#8381;</p>
+                            </div>
+                        </div>
+                        <p class="dish__subtitle">200 гр</p>
+                        <p class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                </li>
+                <li class="dish">
+                    <img class="dish__img" src="<%=require('./images/dishes/dishesSecond.jpeg')%>" alt="Изображение блюда">
+
+                    <div class="dish__main-container">
+                        <div class="dish__main-info-section">
+                            <h3 class="dish__title">Фирменная залупа</h3>
+                            <div class="dish__price-section">
+                                <p class="dish__price">550 &#8381;</p>
+                            </div>
+                        </div>
+                        <p class="dish__subtitle">200 гр</p>
+                        <p class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                </li>
+                <li class="dish">
+                    <img class="dish__img" src="<%=require('./images/dishes/dishesFirst.jpeg')%>" alt="Изображение блюда">
+
+                    <div class="dish__main-container">
+                        <div class="dish__main-info-section">
+                            <h3 class="dish__title">Фирменная залупа</h3>
+                            <div class="dish__price-section">
+                                <p class="dish__price">550 &#8381;</p>
+                            </div>
+                        </div>
+                        <p class="dish__subtitle">200 гр</p>
+                        <p class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                </li>
+                <li class="dish">
+                    <img class="dish__img" src="<%=require('./images/dishes/dishesSecond.jpeg')%>" alt="Изображение блюда">
+
+                    <div class="dish__main-container">
+                        <div class="dish__main-info-section">
+                            <h3 class="dish__title">Фирменная залупа</h3>
+                            <div class="dish__price-section">
+                                <p class="dish__price">550 &#8381;</p>
+                            </div>
+                        </div>
+                        <p class="dish__subtitle">200 гр</p>
+                        <p class="dish__description">Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.</p>
+                    </div>
+                </li>            
+            </ul>
+
+            <div class="swiper-button-prev">
+                <div class="swiper-button-next__arrow swiper-button-next__arrow_left"></div>
+            </div>
+            <div class="swiper-button-next">
+                <div class="swiper-button-next__arrow swiper-button-next__arrow_right "></div>
+            </div>  
+        </section> -->
+
+    <section class="techrider">
+        <h3 class="techrider__title">Техрайдер</h3>
+        <div class="techrider__main-container">
+            <ul class="accordion">
+                <li class="accordion__item">
+                    <input class="accordion__trigger" type="checkbox" name="accordion" id="first">
+                    <label class="accordion__label" for="first">Loundspeakers</label>
+                    <ul class="accordion__content">
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Front monitor Yamaha SM12V 300w x 2</li>
+                        <li class="accordion__tech">Backside monitor Dynacord 500W x 2</li>
+                    </ul>
+                </li>
+                <li class="accordion__item">
+                    <input class="accordion__trigger" type="checkbox" name="accordion" id="second">
+                    <label class="accordion__label" for="second">Amplifier</label>
+                    <ul class="accordion__content">
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Front monitor Yamaha SM12V 300w x 2</li>
+                        <li class="accordion__tech">Backside monitor Dynacord 500W x 2</li>
+                    </ul>
+                </li>
+                <li class="accordion__item">
+                    <input class="accordion__trigger" type="checkbox" name="accordion" id="third">
+                    <label class="accordion__label" for="third">Fon</label>
+                    <ul class="accordion__content">
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Front monitor Yamaha SM12V 300w x 2</li>
+                        <li class="accordion__tech">Backside monitor Dynacord 500W x 2</li>
+                    </ul>
+                </li>
+                <li class="accordion__item">
+                    <input class="accordion__trigger" type="checkbox" name="accordion" id="fourth">
+                    <label class="accordion__label" for="fourth">Backline</label>
+                    <ul class="accordion__content">
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Front monitor Yamaha SM12V 300w x 2</li>
+                        <li class="accordion__tech">Backside monitor Dynacord 500W x 2</li>
+                    </ul>
+                </li>
+                <li class="accordion__item">
+                    <input class="accordion__trigger" type="checkbox" name="accordion" id="fifth">
+                    <label class="accordion__label" for="fifth">Microphone set</label>
+                    <ul class="accordion__content">
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Front monitor Yamaha SM12V 300w x 2</li>
+                        <li class="accordion__tech">Backside monitor Dynacord 500W x 2</li>
+                    </ul>
+                </li>
+                <li class="accordion__item">
+                    <input class="accordion__trigger" type="checkbox" name="accordion" id="sixth">
+                    <label class="accordion__label" for="sixth">DJ equipment</label>
+                    <ul class="accordion__content">
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                        <li class="accordion__tech">Acoustic system BELL Top 600W x 2</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="soundenginers">
+                <h4 class="soundenginers__title">Звукорежиссеры клуба МАНХЭТТЕН</h4>
+                <ul class="soundenginers__container">
+                    <li class="soundenginer">
+                        <img class="soundenginer__img"  src="<%=require('./images/djs/djFirst.jpeg')%>" alt="">
+                        <p class="soundenginer__author">Изотов Константин</p>
+                        <ul class="soundenginer__social-list">
+                            <li class="soundenginer__icon soundenginer__icon_social_vk"><a class="soundenginer__link" href="#"></a></li>
+                            <li class="soundenginer__icon soundenginer__icon_social_tg"><a class="soundenginer__link" href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="soundenginer">
+                        <img class="soundenginer__img"  src="<%=require('./images/djs/dfSecond.jpeg')%>" alt="">
+                        <p class="soundenginer__author">Давид Хозиев</p>
+                        <ul class="soundenginer__social-list">
+                            <li class="soundenginer__icon soundenginer__icon_social_vk"><a class="soundenginer__link" href="#"></a></li>
+                            <li class="soundenginer__icon soundenginer__icon_social_tg"><a class="soundenginer__link" href="#"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+
+        <h3 class="contacts__title">Контакты</h3>
+        <div class="contacts__main-container">
+            <div class="contacts__container">
+                <div class="contact">
+                    <h4 class="contact__title">Адрес</h4>
+                    <p class="contact__subtitle">Набережная реки Фонтанки, 90 (вход в арке с белыми колоннами)</p>
+                </div>
+                <div class="contact">
+                    <h4 class="contact__title">Телефон</h4>
+                    <p class="contact__subtitle">+7 (812) 713-1945</p>
+                </div>
+                <div class="contact">
+                    <h4 class="contact__title">Режим работы</h4>
+                    <p class="contact__subtitle">Ежедневно с 12:00 до 06:00</p>
+                </div>
+
+                <div class="contacts-separater"></div>
+
+                <div class="contact">
+                    <h4 class="contact__title">Директор</h4>
+                    <p class="contact__subtitle">Лидия Эмильевна, +7(921) 963-56-50</p>
+                </div>
+                <div class="contact">
+                    <h4 class="contact__title">Арт-директор</h4>
+                    <p class="contact__subtitle">Илиния Ионашко, +7(981) 989-42-30</p>
+                </div> 
+            </div>
+            <div class="map">
+                <iframe class="map__frame" src="https://yandex.ru/map-widget/v1/?um=constructor%3Af7b2e934561e181b12caa87fb18173198d7b8e74fe61b6d9f4ab74c75adbda3f&amp;source=constructor"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__copyright">Copyright © 2022. Все права защищены.</p>
+        <p class="footer__designer">Дизайн разработан сайта d-e-n.ru</p>
+    </footer> 
+    
+    <template class="poster-template">
+        <li class="poster"><img class="poster__image" src="" alt=""></li>
+    </template>
+
+    </div> 
+</body>
+</html>
+
+
+    <!-- <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="image__wrapper">
+                    <p class="header__logo-name">WHEEL</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image__wrapper">
+                    <p class="header__logo-name">WHEEL</p>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image__wrapper">
+                    <p class="header__logo-name">WHEEL</p>
+                </div>
+            </div>
+
+        </div>          
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+
+        </div> -->
